@@ -1,4 +1,5 @@
 class StudentsController < ApplicationController
+  wrap_parameters format: []
   
   def index
     students = Student.all 
